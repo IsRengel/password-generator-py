@@ -85,8 +85,13 @@ class GeneradorContrasena:
 if __name__ == "__main__":
     app = GeneradorContrasena()
     
-    print("PASSWORD GENERATOR")
+    print("==============================================")
+    print("SISTEMA DE CIBERSEGURIDAD UIDE")
+    print("Tema: Impacto de las Tecnologías en la Sociedad")
+    print("==============================================\n")
+    
     ajustes = app.obtener_configuracion_usuario()
     password_final = app.generar(ajustes)
     
     print(f"{app.textos['resultado']}{password_final}")
+    print("\nReflexión: Una sociedad digital segura empieza con una contraseña robusta.")

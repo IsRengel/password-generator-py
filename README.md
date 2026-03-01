@@ -1,50 +1,58 @@
-# Generador de Contraseñas Seguras
+# Proyecto Integrador: El impacto de las nuevas tecnologías en la sociedad
 
-Este proyecto es una aplicación de consola desarrollada en Python que permite generar contraseñas robustas y personalizadas. Aplicando principios de **Programación Orientada a Objetos (POO)** y **Clean Code**.
+## Universidad Internacional del Ecuador (UIDE)
 
-## Requisitos
-* Python 3.6 o superior.
-* No requiere librerías externas (usa bibliotecas estándar).
+**Asignatura:** Lógica de Programación
 
-## Instalación y Ejecución
+**Facultad:** Universidad Internacional del Ecuador - UIDE
 
-1. **Clonar el repositorio:**
+**Estudiante:** Josue Ismael Avendaño Rengel
+
+**Fecha:** Febrero 2026
+
+---
+
+## Descripción del Proyecto
+
+Este software es una herramienta de ciberseguridad desarrollada en el lenguaje Python para la generación de contraseñas robustas. El proyecto busca analizar el impacto de las nuevas tecnologías en la privacidad ciudadana y proponer soluciones técnicas que mitiguen los riesgos de vulnerabilidad de identidad en el entorno digital futuro.
+
+## Objetivo del Programa
+
+Desarrollar una aplicación funcional que integre los conocimientos de las cuatro unidades de la asignatura (Algoritmos, Estructuras de Control, Estructuras Repetitivas y Programación Funcional/Orientada a Objetos) para proponer herramientas prácticas de protección de datos.
+
+## Requisitos e Instalación
+
+- **Requisitos:** Python 3.6 o superior.
+    
+- **Clonación del repositorio:**
+
 ```bash
 git clone https://github.com/IsRengel/password-generator-py.git
-```
-2. **Navegar al directorio del proyecto:**
-```bash
 cd password-generator-py
 ```
-
-3. **Ejecutar la aplicación:**
     
-- En **Windows**:
+- **Ejecución del sistema:**
+    
+    - Sistemas Windows: `python main.py`
         
-``` bash
-python main.py
-```
-- En **Linux/macOS**:
-``` bash
-python3 main.py
-```     
+    - Sistemas Linux/macOS: `python3 main.py`
 
-## Funcionalidades
+## Funcionalidades Principales
 
-- Validación de longitud mínima (8 caracteres).
+1. **Validación de Parámetros:** Restricción de longitud mínima de 8 caracteres para garantizar entropía (Unidad 3).
     
-- Selección opcional de mayúsculas, números y símbolos.
+2. **Personalización de Caracteres:** Inclusión selectiva de mayúsculas, valores numéricos y símbolos especiales (Unidad 2).
     
-- Estructura modular basada en clases para facilitar el mantenimiento.
+3. **Generación Aleatoria Automática:** Implementación de lógica de selección azarosa mediante estructuras de repetición (Unidad 3).
     
-- Diccionario de configuración para soporte multi-idioma sencillo.
+4. **Arquitectura Modular:** Organización del código fuente mediante clases y funciones con paso de parámetros y retorno de valores (Unidad 4).
     
 
-## Arquitectura y Lógica
+## Análisis de Software y Arquitectura
 
-El flujo lógico del programa se basa en la recolección de parámetros de seguridad del usuario, la construcción de un "pool" de caracteres permitido y la selección aleatoria mediante bucles repetitivos.
+El sistema emplea el paradigma de Programación Orientada a Objetos (POO) para garantizar la escalabilidad y el mantenimiento del código. Se han implementado Type Hinting y Docstrings siguiendo los estándares de la industria para asegurar la legibilidad técnica.
 
-### Diagrama de Flujo
+### Diagrama de Flujo de la Lógica Integrada
 
 ```mermaid
 graph TD
@@ -72,18 +80,22 @@ graph TD
 
 > **Nota:** Si se desea visualizar el diagrama como imagen, se encuentra en el archivo `code-flow.png` dentro del directorio `docs/workflows/`.
 
-## Tecnologías utilizadas
+## Tecnologías y Estándares Utilizados
 
-- **Lenguaje:** Python 3
+- **Lenguaje de Programación:** Python 3
     
-- **Librerías:** `random`, `string`
+- **Principios de Diseño:** Clean Code (Código Limpio)
     
-- **Documentación:** Docstrings (estándar de Google/NumPy)
+- **Documentación:** Docstrings bajo el estándar de Google
     
-- **Tipado:** Type Hinting para mayor legibilidad y depuración.
+- **Modelado de Procesos:** Mermaid.js
 
 ## Documentación
 
 - [clean code](https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Codigo%20limpio%20-%20Robert%20Cecil%20Martin.pdf)
 - [docstrings](https://google.github.io/styleguide/pyguide.html#Comments)
 - [mermaid](https://mermaid.dev/)
+
+---
+
+_Este proyecto constituye la entrega final del Proyecto Integrador, cumpliendo con los objetivos académicos de las ocho semanas de instrucción._
